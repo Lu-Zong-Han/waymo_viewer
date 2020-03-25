@@ -56,5 +56,5 @@ $ source ./WaymoVenv/bin/activate
 * subscribe the topic *camera_image* and *camera_label*
 * publish the camera image with annotation
 ```xml
-(WaymoVenv) $ roslaunch waymo_viewer camera_viewer.launch
+(WaymoVenv) $ rosrun waymo_viewer cameralabel_visualization.py
 ```
