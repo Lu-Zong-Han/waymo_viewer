@@ -1,0 +1,9 @@
+<launch>
+    
+    <node pkg="waymo_viewer" type="recorder.py" name="waymo_viewer" output="screen">
+        <param name="lib_path" value = "/home/user/Dataset/waymo-od"/>
+        <param name="folderpath" value = "/home/user/Dataset/waymo_data/test"/>
+        <param name="bag_path" value = "/home/user/Dataset/waymo_data/test/rosbag"/>
+    </node>
+    
+</launch>
