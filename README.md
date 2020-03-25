@@ -55,6 +55,7 @@ $ source ./WaymoVenv/bin/activate
 ### View the camera annotation
 * subscribe the topic *camera_image* and *camera_label*
 * publish the camera image with annotation
+* **CvBridge should be run in python2, so don't excute it in virtualenv**
 ```xml
-(WaymoVenv) $ rosrun waymo_viewer cameralabel_visualization.py
+$ rosrun waymo_viewer cameralabel_visualization.py
 ```
