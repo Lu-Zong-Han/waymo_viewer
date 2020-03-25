@@ -9,7 +9,7 @@ https://docs.google.com/presentation/d/1gb0FWNSM3V5IXGwbaT-Iov2CoLlbsfCW6dLxDC-i
 ### Virtualenv
 #### Check Version
 Python 3.5-3.7
-pip 19.0 及更高版本
+pip 19.0 or higher version
 ```xml
 $ python3 --version
 $ pip3 --version
